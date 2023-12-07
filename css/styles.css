@@ -48,7 +48,7 @@ form input {
 
 
 #racetrack {
-    background: url('../img/road.jpg') center left repeat-x;
+    background: url('../img/road.png') center left repeat-x;
     height: 330px;
     border-right: dashed 10px white;
     box-sizing: border-box;
@@ -58,14 +58,15 @@ form input {
 .car {
     display: block;
     position: relative;
+    width: 200px;
 }
 
 #car1 {
-    top: 30px;
+    top: -30px;
 }
 
 #car2 {
-    top: 100px;
+    top:-45px;
 }
 
 #raceInfoContainer {
@@ -81,7 +82,6 @@ form input {
     border-bottom: solid 1px white;
     padding: 20px 0;
 }
-
 .raceInfo {
     font-size: 24px;
     font-weight: bold;
@@ -122,3 +122,4 @@ input#reset {
     display: table;
     clear: both;
 }
+
